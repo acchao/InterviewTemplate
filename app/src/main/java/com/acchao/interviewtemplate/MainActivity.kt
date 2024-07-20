@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             InterviewTemplateTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Andrew",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Welcome to $name's Barebones interview template",
         modifier = modifier
     )
 }
